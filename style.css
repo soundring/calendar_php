@@ -1,0 +1,50 @@
+body {
+    background-color: #000000;
+}
+
+.container {
+    font-family: 'Noto Sans JP', sans-serif;
+    margin-top: 80px;
+    color: #fff;
+}
+.calendar_title {
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.btn-light {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.prev.btn.btn-light {
+    margin-right: 2%;
+}
+
+.next.btn.btn-light {
+    margin-left: 2%;
+}
+
+th {
+    height: 30px;
+    text-align: center;
+}
+td {
+    height: 100px;
+}
+.today {
+    background-color: #D2691E;
+}
+th,td {
+    color: #fff;
+    font-size: 2rem;
+}
+
+th:nth-of-type(1), td:nth-of-type(1) {
+    color: red;
+}
+th:nth-of-type(7), td:nth-of-type(7) {
+    color: #00FFFF;
+}
